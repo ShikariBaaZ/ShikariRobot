@@ -11,7 +11,7 @@ The easiest way to deploy this Bot
 
 ### Special Credits 💖
 - [SAM](LAWLESS OWNER): Dev
-- [❤️JANA❤️]: Dev
+- [❤️JANA❤️] : Dev
 - [JOEY] : Dev
 - [SHIKARI](https://github.com/ShikariBaaZ): Dev
 
