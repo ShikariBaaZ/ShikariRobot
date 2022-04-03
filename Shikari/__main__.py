@@ -175,7 +175,7 @@ def start(update: Update, context: CallbackContext):
     [
         InlineKeyboardButton(text="Tools", callback_data="tools_back"),
         InlineKeyboardButton(
-            text="Bot Info", callback_data="Shikari_"
+            text="Bot Info", callback_data="shikari_"
         ),
     ],
     [
@@ -220,10 +220,10 @@ def start(update: Update, context: CallbackContext):
 
 
 
-def Shikari_about_callback(update: Update, context: CallbackContext):
+def shikari_about_callback(update: Update, context: CallbackContext):
     first_name = update.effective_user.first_name
     query = update.callback_query
-    if query.data == "yone_":
+    if query.data == "shikari_":
         query.message.edit_text(
             text="""Hello *{}*, My name is *{}*. A Powerful Telegram Group Management Bot built to help you manage Group easily.
             \n ‣ I can Restrict Users.
