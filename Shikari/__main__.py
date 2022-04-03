@@ -244,7 +244,7 @@ def Shikari_about_callback(update: Update, context: CallbackContext):
                      InlineKeyboardButton(text="News", url="t.me/The_SHIKARI_Network"),
                    ],
                    [
-                    InlineKeyboardButton(text="Back", callback_data="yone_back")
+                    InlineKeyboardButton(text="Back", callback_data="shikari_back")
                    ]
                 ]
             ),
