@@ -301,7 +301,7 @@ def main():
     user_help_callback_handler = CallbackQueryHandler(user_help_button, pattern=r"user_.*", run_async=True)
     tools_help_callback_handler = CallbackQueryHandler(tools_help_button, pattern=r"tools_.*", run_async=True)
 
-    about_callback_handler = CallbackQueryHandler(yone_about_callback, pattern=r"shikari_", run_async=True)
+    about_callback_handler = CallbackQueryHandler(shikari_about_callback, pattern=r"shikari_", run_async=True)
 
     settings_handler = CommandHandler("settings", get_settings, run_async=True)
     settings_callback_handler = CallbackQueryHandler(settings_button, pattern=r"stngs_", run_async=True)
