@@ -267,7 +267,7 @@ def shikari_about_callback(update: Update, context: CallbackContext):
     [
         InlineKeyboardButton(text="Tools", callback_data="tools_back"),
         InlineKeyboardButton(
-            text="Bot Info", callback_data="yone_"
+            text="Bot Info", callback_data="shikari_"
         ),
     ],
     [
